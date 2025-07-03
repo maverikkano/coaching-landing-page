@@ -21,7 +21,7 @@ export default function Home() {
             </NavigationMenuList>
           </NavigationMenu>
           <Button variant="outline" className="hidden sm:flex items-center gap-2 text-blue-700 border-blue-300 hover:bg-blue-50 curosor-pointer">
-            <Image src="/Whatsapp.svg.webp" alt="WhatsApp Icon" width={20} height={20} className="w-5 h-5" /> WhatsApp Us</Button>
+            <Image src="/WhatsApp.svg.webp" alt="WhatsApp Icon" width={20} height={20} className="w-5 h-5" /> WhatsApp Us</Button>
         </header>
         {/* <div className="absolute inset-0 bg-black/70 z-10"></div> */}
         <div className="relative z-10 flex flex-col items-center bg-gradient-to-br from-blue-50/70 to-yellow-50/60 mt-0 md:mt-20 p-8 rounded-lg max-w-3xl w-full shadow-xl border border-blue-200 backdrop-blur-sm" id="hero-content">
@@ -84,7 +84,7 @@ export default function Home() {
           <a href="#" className="text-blue-700 hover:text-blue-900 transition-colors font-medium">Terms of Service</a>
           <a href="#" className="text-blue-700 hover:text-blue-900 transition-colors font-medium">Contact Us</a>
           <div className="flex items-center gap-2">
-            <Image src="/Whatsapp.svg.webp" alt="WhatsApp" width={16} height={16} className="w-4 h-4" />
+            <Image src="/WhatsApp.svg.webp" alt="WhatsApp" width={16} height={16} className="w-4 h-4" />
             <span className="text-blue-700 font-medium">+31 6 12345678</span>
           </div>
         </div>

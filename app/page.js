@@ -15,12 +15,12 @@ export default function Home() {
         <header className="w-full py-6 px-8 flex justify-between items-center border-b backdrop-blur-xs bg-blue-50/70 sticky top-0 z-20 border-blue-200">
           <div className="text-xl font-bold text-blue-900">€uro Careers</div>
           <NavigationMenu className="hidden sm:flex">
-            <NavigationMenuList>
+            <NavigationMenuList className="flex gap-8">
               <NavigationMenuItem><a href="#" className="text-blue-700 hover:text-blue-900 transition-colors">LIVE Webinar</a></NavigationMenuItem>
               <NavigationMenuItem><a href="#" className="text-blue-700 hover:text-blue-900 transition-colors">1-on-1 Coaching</a></NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
-          <Button variant="outline" className="hidden sm:flex items-center gap-2 text-blue-700 border-blue-300 hover:bg-blue-50 curosor-pointer">
+          <Button variant="outline" className="hidden sm:flex items-center gap-2 text-blue-700 border-blue-300 hover:bg-blue-50 cursor-pointer">
             <Image src="/WhatsApp.svg.webp" alt="WhatsApp Icon" width={20} height={20} className="w-5 h-5" /> WhatsApp Us</Button>
         </header>
         {/* <div className="absolute inset-0 bg-black/70 z-10"></div> */}
@@ -33,7 +33,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <Input type="email" placeholder="Enter email to register free" className="w-72 bg-white/95 border-blue-300 focus:border-blue-500 focus:ring-blue-500 text-gray-900 placeholder-gray-600 shadow-lg backdrop-blur-sm" />
-            <Button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white">Register</Button>
+            <Button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white cursor-pointer">Register</Button>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@ export default function Home() {
         <p className="max-w-2xl mx-auto mb-8 text-lg text-blue-800">
           Personalized guidance from experts who&apos;ve been where you are. Get resume help, job hunting strategy, and mock interviews tailored to your goals.
         </p>
-        <Button className="bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-blue-900 font-semibold">Book a Free Session</Button>
+        <Button className="bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-blue-900 font-semibold cursor-pointer">Book a Free Session</Button>
       </div>
 
       <div id="testimonials" className="w-full bg-blue-50 py-16 px-6 text-center text-gray-900">
@@ -73,13 +73,13 @@ export default function Home() {
         </div>
       </div>
 
-      <footer className="w-full mt-auto text-xs text-gray-600 px-4 py-8 flex flex-col md:flex-row justify-between items-center bg-gradient-to-r from-blue-50 to-yellow-50 border-t border-blue-200">
-        <div className="flex flex-col md:flex-row items-center gap-4 mb-4 md:mb-0">
+      <footer className="w-full mt-auto text-xs text-gray-600 px-4 py-12 flex flex-col md:flex-row justify-between items-center bg-gradient-to-r from-blue-50 to-yellow-50 border-t border-blue-200">
+        <div className="flex flex-col md:flex-row items-center gap-4 mb-6 md:mb-0">
           <span className="font-semibold text-blue-900">€uro Careers</span>
           <span className="text-gray-500">•</span>
           <span>Copyright © 2025 Euro Careers. All rights reserved.</span>
         </div>
-        <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6">
+        <div className="flex flex-col items-start gap-3">
           <a href="#" className="text-blue-700 hover:text-blue-900 transition-colors font-medium">Privacy Policy</a>
           <a href="#" className="text-blue-700 hover:text-blue-900 transition-colors font-medium">Terms of Service</a>
           <a href="#" className="text-blue-700 hover:text-blue-900 transition-colors font-medium">Contact Us</a>
@@ -88,6 +88,7 @@ export default function Home() {
             <span className="text-blue-700 font-medium">+31 6 12345678</span>
           </div>
         </div>
+        <div className="hidden md:block w-1/3"></div>
       </footer>
     </div >
   );

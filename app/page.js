@@ -39,7 +39,7 @@ export default function Home() {
       </div>
 
       <div id="1on1-coaching-section" className="w-full bg-gradient-to-br from-blue-50 via-yellow-50 to-blue-100 py-16 px-6 text-center text-blue-900">
-        <h2 className="text-3xl md:text-5xl font-bold mb-6">1-on-1 Career Coaching</h2>
+        <h2 className="text-3xl md:text-5xl fłnt-bold mb-6">1-on-1 Career Coaching</h2>
         <p className="max-w-2xl mx-auto mb-8 text-lg text-blue-800">
           Personalized guidance from experts who&apos;ve been where you are. Get resume help, job hunting strategy, and mock interviews tailored to your goals.
         </p>

@@ -26,10 +26,14 @@ export default function Home() {
         {/* <div className="absolute inset-0 bg-black/70 z-10"></div> */}
         <div className="relative z-10 flex flex-col items-center bg-gradient-to-br from-blue-50/70 to-yellow-50/60 mt-0 md:mt-20 p-8 rounded-lg max-w-3xl w-full shadow-xl border border-blue-200 backdrop-blur-sm" id="hero-content">
           <h1 className="text-4xl md:text-8xl font-extrabold mb-6 text-blue-900">
-            <br className="md:hidden" /> Welcome to <br className="md:invisible" /><span className="text-yellow-600">Road to €uro Careers</span>
+            <br className="md:hidden" /> <span className="text-yellow-600">Welcome to</span> <br className="md:invisible" /><span className="text-blue-900">Road to €uro Careers</span>
           </h1>
-          <p className="text-blue-800 text-xl mb-10">
+          <p className="text-purple-800 text-xl mb-6">
             10 JULY 2025 <span className="font-semibold">ONLINE</span>
+          </p>
+          <p className="text-blue-800 text-lg mb-8 text-center max-w-2xl">
+            Best stop to learn the insider strategies for landing a job in Europe / UK. <br /><br />
+            Soniya & Rajat are young software pros and international job experts, have worked across top MNCs across the UK, India and now the Netherlands.
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <Input type="email" placeholder="Enter email to register free" className="w-72 bg-white/95 border-blue-300 focus:border-blue-500 focus:ring-blue-500 text-gray-900 placeholder-gray-600 shadow-lg backdrop-blur-sm" />
@@ -39,11 +43,67 @@ export default function Home() {
       </div>
 
       <div id="1on1-coaching-section" className="w-full bg-gradient-to-br from-blue-50 via-yellow-50 to-blue-100 py-16 px-6 text-center text-blue-900">
-        <h2 className="text-3xl md:text-5xl fłnt-bold mb-6">1-on-1 Career Coaching</h2>
-        <p className="max-w-2xl mx-auto mb-8 text-lg text-blue-800">
-          Personalized guidance from experts who&apos;ve been where you are. Get resume help, job hunting strategy, and mock interviews tailored to your goals.
+        <h2 className="text-3xl md:text-5xl font-bold mb-6">Our Services</h2>
+        <p className="max-w-2xl mx-auto mb-12 text-lg text-blue-800">
+          We help you with all the impactful ways and hacks to land a visa sponsored job in Europe - UK from all the way India. Already based in Europe / UK? You&apos;re closer than you think. Let&apos;s connect and tackle the toughest part: &quot;getting the interviews&quot;. No fluff. Just what works!
         </p>
+        
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+          <Card className="bg-white text-blue-900 rounded-xl border border-blue-200 shadow-lg hover:shadow-xl transition-shadow">
+            <CardContent className="p-6 text-center">
+              <h3 className="text-xl font-bold mb-3 text-yellow-600">MASTERCLASS</h3>
+              <p className="text-sm mb-3">Knows & Hows for getting a job in Europe / UK</p>
+              <p className="text-xs text-gray-600 mb-2">Time: 60 mins</p>
+              <p className="text-lg font-bold text-blue-700 mb-3">₹200 INR</p>
+              <p className="text-xs text-gray-600">Free: CV template, cover letter, FAQs</p>
+            </CardContent>
+          </Card>
+          
+          <Card className="bg-white text-blue-900 rounded-xl border border-blue-200 shadow-lg hover:shadow-xl transition-shadow">
+            <CardContent className="p-6 text-center">
+              <h3 className="text-xl font-bold mb-3 text-yellow-600">SIGNATURE PROGRAM</h3>
+              <p className="text-sm mb-3">Proven in-depth strategies. All about CV, LinkedIn, Job Applications and interview hacks</p>
+              <p className="text-xs text-gray-600 mb-2">Duration: 4 days</p>
+              <p className="text-lg font-bold text-blue-700 mb-3">₹5000 INR</p>
+              <p className="text-xs text-gray-600">Free: List of 50 sponsored companies, interview prep sheet, 2 follow ups</p>
+            </CardContent>
+          </Card>
+          
+          <Card className="bg-white text-blue-900 rounded-xl border border-blue-200 shadow-lg hover:shadow-xl transition-shadow">
+            <CardContent className="p-6 text-center">
+              <h3 className="text-xl font-bold mb-3 text-yellow-600">1:1 SESSION</h3>
+              <p className="text-sm mb-3">Comprehensive guide specially curated for you for landing a job in Europe / UK</p>
+              <p className="text-xs text-gray-600 mb-2">Duration: 2 days</p>
+              <p className="text-lg font-bold text-blue-700 mb-3">₹6000 INR</p>
+              <p className="text-xs text-gray-600">Free: List of 50 sponsored companies, interview prep sheet, 2 follow ups</p>
+            </CardContent>
+          </Card>
+          
+          <Card className="bg-white text-blue-900 rounded-xl border border-blue-200 shadow-lg hover:shadow-xl transition-shadow">
+            <CardContent className="p-6 text-center">
+              <h3 className="text-xl font-bold mb-3 text-yellow-600">SPECIALISED WORKSHOPS</h3>
+              <p className="text-sm mb-3">• ChatGPT for interview prep<br/>• Mastering LinkedIn for jobs</p>
+              <p className="text-xs text-gray-600">Free: Interview guide & LinkedIn optimisation checklist</p>
+            </CardContent>
+          </Card>
+        </div>
+        
         <Button className="bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-blue-900 font-semibold cursor-pointer">Book a Free Session</Button>
+      </div>
+
+      <div id="about-us" className="w-full bg-gradient-to-br from-yellow-50 to-blue-50 py-16 px-6 text-center text-blue-900">
+        <h2 className="text-3xl md:text-5xl font-bold mb-10">Know Soniya & Rajat</h2>
+        <div className="max-w-4xl mx-auto">
+          <p className="text-lg mb-8 text-blue-800 leading-relaxed">
+            Young software pros, Soniya with 8 YOE and Rajat with 4 YOE. Alongside their tech careers they also specialise in guiding expats toward successful careers in the international job market, with a strong focus on the European continent.
+          </p>
+          <p className="text-lg mb-8 text-blue-800 leading-relaxed">
+            Beyond their professional roles, they are passionate meditation and wellness coaches, volunteering with the Art of Living Foundation. So far, they have taught meditation and yoga to over 7,000 people worldwide, helping them manage stress, overcome anxiety, and boost their overall well-being and productivity.
+          </p>
+          <p className="text-lg text-blue-800 leading-relaxed">
+            They are keen explorers, who have traveled to over 20 countries across 4 continents, gaining an understanding of different cultures, people, and ways of life.
+          </p>
+        </div>
       </div>
 
       <div id="testimonials" className="w-full bg-blue-50 py-16 px-6 text-center text-gray-900">
